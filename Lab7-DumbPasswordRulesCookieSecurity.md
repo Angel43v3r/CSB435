@@ -113,31 +113,43 @@ Which site(s) you analyzed
 - Gmail
 
 Cookie table
-| Name              | Presence     | Domain             | Path | Expires    | Size | HttpOnly | Secure | SameSite | Purpose             |
-| ----------------- | --------     | ---------------    | ---- | ---------- | ---- | -------- | ------ | -------- | ------------------- |
-| _Host-GAPS        | before-login | accounts.google.com| /    | 2027-06-26 | 60   | Yes      | Yes    |          | Account Security & Sign-in Management |
-| NID               | before-login | .google.com        | /    | 2026-11-21 | 211  | Yes      | Yes    | None     | Personalization & Logged-Out Ad Targeting |
-| OTZ               | before-login | accounts.google.com| /    | 2026-06-21 | 33   |          | Yes    |          | Analytic & Security Tracking |
-| _Securer-1PAPISID | after-login  | .google.com        | /    | 2027-06-26 | 51   |          | Yes    |          | Security and Marketing Cookie  |
-| __Secure-1PSID    | after-login  | .google.com        | /    | 2027-06-26 | 167  | Yes      | Yes    |          | Primary Account Aunthentication and Profiling |
-| __Secure-1PSIDCC  | after-login  | .google.com        | /    | 2027-05-22 | 90   | Yes      | Yes    |          | Security Verification and Anti-Fraud Cookie |
-| __Secure-3PAPISID | after-login  | .google.com        | /    | 2027-06-26 | 51   |          | Yes    | None     | Authentication & Personalization Cookie |
-| __Secure-3PSID    | after-login  | .google.com        | /    | 2027-06-26 | 167  | Yes      | Yes    | None     | Secure Authentication, Personalization, and  Ads |
-| __Secure-3PSIDCC  | after-login  | .google.com        | /    | 2027-05-22 | 88   | Yes      | Yes    | None     | Security, Personalization, and  Ads |
-| __Secure-OSID     | after-login  | mail.google.com    | /    | 2027-06-26 | 166  | Yes      | Yes    | None     | Sign-in Management & Authentication |
-| APISID            | after-login  | .google.com        | /    | 2027-06-26 | 40   |          |        |          | Identification, Personalization, and  Ads |
-| COMPASS      | after-login  | mail.google.com    | /mail/u/0 | 2026-06-01 | 621  | Yes      | Yes    | None     | Analytics, Personalization, and  Ads |
-| GAUSR  | after-login  | mail.google.com    | /mail/mu/mp/954 | 2027-06-26 | 28   |          |        |          | Analytics & Personalization | 
-| GM_IMP    | after-login  | mail.google.com    | /mail/u/0/s/ | 2027-05-25 | 6    |          |        |          | Analytics, Ads, Performance | 
-| GM_RUNNING | after-login  | mail.google.com   | /mail/u/0/s/ | 2027-05-25 | 11   |          |        |          | Session Tracking & Analytics | 
-| GMAIL_AT| after-login  | mail.google.com   | /mail/mu/mp/954 | Session    | 42   |          | Yes    |          | Authentication & Maintain Sign-in State  | 
+| Name              | Presence     | Domain             | Path            | Expires    | Size | HttpOnly | Secure | SameSite | Purpose             |
+| ----------------- | --------     | ---------------    | --------------- | ---------- | ---- | -------- | ------ | -------- | ------------------- |
+| _Host-GAPS        | before-login | accounts.google.com| /               | 2027-06-26 | 60   | Yes      | Yes    |          | Account Security & Sign-in Management |
+| NID               | before-login | .google.com        | /               | 2026-11-21 | 211  | Yes      | Yes    | None     | Personalization & Logged-Out Ad Targeting |
+| OTZ               | before-login | accounts.google.com| /               | 2026-06-21 | 33   |          | Yes    |          | Analytic & Security Tracking |
+| _Securer-1PAPISID | after-login  | .google.com        | /               | 2027-06-26 | 51   |          | Yes    |          | Security and Marketing Cookie  |
+| __Secure-1PSID    | after-login  | .google.com        | /               | 2027-06-26 | 167  | Yes      | Yes    |          | Primary Account Aunthentication and Profiling |
+| __Secure-1PSIDCC  | after-login  | .google.com        | /               | 2027-05-22 | 90   | Yes      | Yes    |          | Security Verification and Anti-Fraud Cookie |
+| __Secure-3PAPISID | after-login  | .google.com        | /               | 2027-06-26 | 51   |          | Yes    | None     | Authentication & Personalization Cookie |
+| __Secure-3PSID    | after-login  | .google.com        | /               | 2027-06-26 | 167  | Yes      | Yes    | None     | Secure Authentication, Personalization, and  Ads |
+| __Secure-3PSIDCC  | after-login  | .google.com        | /               | 2027-05-22 | 88   | Yes      | Yes    | None     | Security, Personalization, and  Ads |
+| __Secure-OSID     | after-login  | mail.google.com    | /               | 2027-06-26 | 166  | Yes      | Yes    | None     | Sign-in Management & Authentication |
+| APISID            | after-login  | .google.com        | /               | 2027-06-26 | 40   |          |        |          | Identification, Personalization, and  Ads |
+| COMPASS           | after-login  | mail.google.com    | /mail/u/0       | 2026-06-01 | 621  | Yes      | Yes    | None     | Analytics, Personalization, and  Ads |
+| GAUSR             | after-login  | mail.google.com    | /mail/mu/mp/954 | 2027-06-26 | 28   |          |        |          | Analytics & Personalization | 
+| GM_IMP            | after-login  | mail.google.com    | /mail/u/0/s/    | 2027-05-25 | 6    |          |        |          | Analytics, Ads, Performance | 
+| GM_RUNNING        | after-login  | mail.google.com    | /mail/u/0/s/    | 2027-05-25 | 11   |          |        |          | Session Tracking & Analytics | 
+| GMAIL_AT          | after-login  | mail.google.com    | /mail/mu/mp/954 | Session    | 42   |          | Yes    |          | Authentication & Maintain Sign-in State  | 
+| GX                | after-login  | mail.google.com    | /mail           | 2027-06-26 | 7    | Yes      | Yes    |          | Session Tracking  | 
+| HSID              | after-login  | .google.com        | /               | 2027-06-26 | 21   | Yes      |        |          | Authentication & Session Integrity |
+| OSID              | after-login  | mail.google.com    | /               | 2027-06-26 | 157  | Yes      | Yes    |          | Authentication & Session Management |
+| SAPISID           | after-login  | .google.com        | /               | 2027-06-26 | 41   |          | Yes    |          | Authentication, Identification, Personalization & Ads  |
+| SDP_PROMO_SHOWN   | after-login  | mail.google.com    | /mail/mu        | 2026-05-29 | 19   |          |        |          | Promotional Message |
+| SID               | after-login  | .google.com        | /               | 2027-06-26 | 156  |          |        |          | Authentication & Session Management  | 
+| SIDCC             | after-login  | .google.com        | /               | 2027-05-22 | 79   |          |        |          | Security and Fraud Prevention  | 
+| SSID              | after-login  | .google.com        | /               | 2027-06-26 | 21   | Yes      | Yes    |          | Authentication & Session Management  | 
+| WML               | after-login  | mail.google.com    | /mail           | 2027-06-26 | 46   |          | Yes    |          | Analytic & Tracking |
 
 Your observations about the cookies:
 Which cookies appear to be for authentication/session management?
-- __Secure-1PSID, __Secure-3PAPISID, __Secure-3PSID, __Secure-OSID, GM_RUNNING, GMAIL_AT
+- __Secure-1PSID, __Secure-3PAPISID, __Secure-3PSID, __Secure-OSID, GM_RUNNING, GMAIL_AT, GX, HSID, OSID, SAPISID, SID, and SSID
+
 Are the authentication cookies properly secured (HttpOnly, Secure, SameSite)?
-- Yes look at the table
+- Yes almost all except APISID, GAUSR, GM_IMP, GM_RUNNING, SDP_PROMO_SHOWN, SID, and SIDCC
+
 Are there any cookies that seem unnecessary or overly permissive?
-- Yeah there are some that does Ad targetting and personalization which is overly permissive and unnecessary, look at the table.
+- Yeah there are some that does Ad targetting, promo and personalization which is overly permissive and unnecessary. For example SDP_PROMO_SHOWN is a promotional message which is unneccessary. Another is NID which is also just for personalization and Ad targetting. 
+
 Do any cookies have concerning lifetimes (too long or too short)?
 - I think most are appropriate but some are too long like some are like expires in 1 year.
