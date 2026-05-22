@@ -153,9 +153,7 @@ Are the authentication cookies properly secured (HttpOnly, Secure, SameSite)?
 
 Are there any cookies that seem unnecessary or overly permissive?
 
-- Yeah there are some that does Ad targetting, promo and personalization which is overly permissive and unnecessary. For example SDP_PROMO_SHOWN is a promotional message which is unneccessary. 
-
-Another is NID which is also just for personalization and Ad targetting. 
+- Yeah there are some that does Ad targetting, promo and personalization which is overly permissive and unnecessary. For example SDP_PROMO_SHOWN is a promotional message which is unneccessary. Another is NID which is also just for personalization and Ad targetting. 
 
 Do any cookies have concerning lifetimes (too long or too short)?
 
