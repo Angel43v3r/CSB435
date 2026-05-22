@@ -3,7 +3,8 @@
 ## Table Of Contents
 1. [Overview](#overview)
 2. [Part 1: Validate Dumb Password Rules](#part-1-validate-dumb-password-rules)
-3. []()
+3. [Part 2: Cookie Security Analysis](#part-2-cookie-security-analysis)
+4. [Submission](#submission)
 
 
 ## Overview
@@ -143,13 +144,19 @@ Cookie table
 
 Your observations about the cookies:
 Which cookies appear to be for authentication/session management?
+
 - __Secure-1PSID, __Secure-3PAPISID, __Secure-3PSID, __Secure-OSID, GM_RUNNING, GMAIL_AT, GX, HSID, OSID, SAPISID, SID, and SSID
 
 Are the authentication cookies properly secured (HttpOnly, Secure, SameSite)?
+
 - Yes almost all except APISID, GAUSR, GM_IMP, GM_RUNNING, SDP_PROMO_SHOWN, SID, and SIDCC
 
 Are there any cookies that seem unnecessary or overly permissive?
-- Yeah there are some that does Ad targetting, promo and personalization which is overly permissive and unnecessary. For example SDP_PROMO_SHOWN is a promotional message which is unneccessary. Another is NID which is also just for personalization and Ad targetting. 
+
+- Yeah there are some that does Ad targetting, promo and personalization which is overly permissive and unnecessary. For example SDP_PROMO_SHOWN is a promotional message which is unneccessary. 
+
+Another is NID which is also just for personalization and Ad targetting. 
 
 Do any cookies have concerning lifetimes (too long or too short)?
+
 - I think most are appropriate but some are too long like some are like expires in 1 year.
