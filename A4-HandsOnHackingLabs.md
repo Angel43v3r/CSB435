@@ -241,17 +241,22 @@ Disallow: /s3cr3t/
 Include the URL in the screenshot or caption
 
 ### Google Guyere Screenshot
-![Google Guyere 1]()
-![Google Guyere 2]()
+![Google Guyere 1](https://github.com/Angel43v3r/CSB435/blob/main/assets/Guyere00.png)
+![Google Guyere 2](https://github.com/Angel43v3r/CSB435/blob/main/assets/Guyere01.png)
 
 ### CTF Learn Screenshot
-![CTF Learn]()
+![CTF Learn](https://github.com/Angel43v3r/CSB435/blob/main/assets/CTF00.png)
+![CTF Learn](https://github.com/Angel43v3r/CSB435/blob/main/assets/CTF01.png)
 
 ### OverTheWire Bandit Screenshot
-![OverTheWire Bandit]()
+![OverTheWire Bandit](https://github.com/Angel43v3r/CSB435/blob/main/assets/OverTheWireBandit00.png)
+![OverTheWire Bandit](https://github.com/Angel43v3r/CSB435/blob/main/assets/OverTheWireBandit01.png)
 
 ### OverTheWire Natas Screenshot
-![OverTheWire Natas]()
+![OverTheWire Natas](https://github.com/Angel43v3r/CSB435/blob/main/assets/OverTheWireNatas00.png)
+![OverTheWire Natas](https://github.com/Angel43v3r/CSB435/blob/main/assets/OverTheWireNatas01.png)
+![OverTheWire Natas](https://github.com/Angel43v3r/CSB435/blob/main/assets/OverTheWireNatas02.png)
+![OverTheWire Natas](https://github.com/Angel43v3r/CSB435/blob/main/assets/OverTheWireNatas003.png)
 
 ## Which was your favourite penetration lab or testing target?
 - I really like the OverTheWire Bandit and and Natas especially the level 3.
