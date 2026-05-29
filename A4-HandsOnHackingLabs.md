@@ -256,7 +256,8 @@ Include the URL in the screenshot or caption
 ![OverTheWire Natas](https://github.com/Angel43v3r/CSB435/blob/main/assets/OverTheWireNatas00.png)
 ![OverTheWire Natas](https://github.com/Angel43v3r/CSB435/blob/main/assets/OverTheWireNatas01.png)
 ![OverTheWire Natas](https://github.com/Angel43v3r/CSB435/blob/main/assets/OverTheWireNatas02.png)
-![OverTheWire Natas](https://github.com/Angel43v3r/CSB435/blob/main/assets/OverTheWireNatas003.png)
+![OverTheWire Natas](https://github.com/Angel43v3r/CSB435/blob/main/assets/OverTheWireNatas03.png)
+
 
 ## Which was your favourite penetration lab or testing target?
 - I really like the OverTheWire Bandit and and Natas especially the level 3.
